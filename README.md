@@ -1,6 +1,6 @@
-# Classification iOS App
+# Classification Android App
 
-You can find an in depth walkthrough for training a Core ML model [here](https://cloud-annotations.github.io/training/).
+You can find an in depth walkthrough for training a TensorFlow lite model [here](https://cloud-annotations.github.io/training/).
 
 ## Setup
 `git clone` the repo and `cd` into it by running the following command:
