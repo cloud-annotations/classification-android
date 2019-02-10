@@ -15,11 +15,13 @@ The recommended way to develop applications for Android is by using Android Stud
 
 ## Open the project with Android Studio
 Launch Android Studio and choose **Open an existing Android Studio project**
+
 ![](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/img/1482ddc7911df61b.png)
 
 In the file selector, choose `classification-android`.
 
 You will get a **Gradle Sync** popup, the first time you open the project, asking about using gradle wrapper. Click **OK**.
+
 ![](https://codelabs.developers.google.com/codelabs/tensorflow-for-poets-2-tflite/img/b9f9a03dd27fd1bb.png)
 
 ## Set up an Android device
@@ -28,7 +30,7 @@ You can't load the app from android studio onto your phone unless you activate *
 Follow these [instructions](https://developer.android.com/studio/debug/dev-options.html#enable).
 
 ## Add your model files to the project
-Copy the `model_android` directory generated from the object detection walkthrough and paste it into the `classification-android/app/src/main/assets` folder of this repo.
+Copy the `model_android` directory generated from the classification walkthrough and paste it into the `classification-android/app/src/main/assets` folder of this repo.
 
 ## Run the app
 In Android Studio run a **Gradle sync** so the build system can find your files.
