@@ -6,7 +6,7 @@ You can find an in depth walkthrough for training a TensorFlow lite model [here]
 `git clone` the repo and `cd` into it by running the following command:
 
 ```bash
-git clone github.com/cloud-annotations/classification-android.git &&
+git https://clone github.com/cloud-annotations/classification-android.git
 cd classification-android
 ```
 
